@@ -1,5 +1,5 @@
 
-package com.dilip.junittest;
+package com.junit.example;
 import java.util.ArrayList;
 import java.util.List;
 

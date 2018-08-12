@@ -1,4 +1,4 @@
-package com.dilip.junittest;
+package com.junit.example;
 
 import java.util.List;
 

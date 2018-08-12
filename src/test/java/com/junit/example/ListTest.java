@@ -1,4 +1,4 @@
-package com.dilip.junittest;
+/*package com.junit.example;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
@@ -44,4 +44,4 @@ public class ListTest {
 		assertEquals("in28Minutes", list.get(1));
 	}
 
-}
+}*/
