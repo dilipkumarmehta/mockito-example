@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dilip.hacker</groupId>
-	<artifactId>transaction-report-manger</artifactId>
+	<artifactId>mockito-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>transaction-report-manger</name>
+	<name>mockito-example</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -57,15 +57,16 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
+			<artifactId>junit</artifactId> <optional>true</optional>
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.powermock</groupId>
 			<artifactId>powermock-api-mockito</artifactId>
 			<version>1.6.3</version>
@@ -75,7 +76,7 @@
 			<artifactId>powermock-module-junit4</artifactId>
 			<version>1.6.3</version>
 		</dependency>
-
+ -->
 		<!-- Swagger 2.0 -->
 		<dependency>
 			<groupId>io.springfox</groupId>
